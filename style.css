@@ -1,0 +1,4 @@
+#cc-gradient{
+    background: rgb(79,112,156);
+background: linear-gradient(90deg, rgba(79,112,156,1) 0%, rgba(33,53,85,1) 100%);
+}
