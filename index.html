@@ -1,224 +1,547 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ABC Construction</title>
-</head>
-<body>
+  </head>
+  <body>
     <!-- Header Section -->
     <!-- Navbar -->
     <div id="home_section"></div>
     <nav class="navbar navbar-expand-lg sticky-top" id="cc-gradient">
-        <div class="container">
-          <a class="navbar-brand" href="#home_section"><img src="images/ABC Cons Logo.png" width="80px" class="img-fluid" alt="logo"></a>
-          <button class="navbar-toggler" style="background-color: #D8C4B6;" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <a class="nav-link fs-5 fw-medium text-light" href="#about_section">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link fs-5 fw-medium text-light" href="#project_section">Projects</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link fs-5 fw-medium text-light" href="#software_section">Meet the team</a>
-              </li>
-            </ul>
-          </div>
+      <div class="container">
+        <a class="navbar-brand" href="#home_section"
+          ><img
+            src="images/ABC Cons Logo.png"
+            width="80px"
+            class="img-fluid"
+            alt="logo"
+        /></a>
+        <button
+          class="navbar-toggler"
+          style="background-color: #d8c4b6"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a
+                class="nav-link fs-5 fw-medium text-light"
+                href="#about_section"
+                >About</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link fs-5 fw-medium text-light"
+                href="#about_section"
+                >What We Do</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link fs-5 fw-medium text-light"
+                href="#project_section"
+                >Projects</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link fs-5 fw-medium text-light"
+                href="#software_section"
+                >Meet the team</a
+              >
+            </li>
+          </ul>
         </div>
-      </nav>
+      </div>
+    </nav>
 
     <!-- Main Section -->
     <!-- Hero Section -->
     <div class="container-fluid">
       <div class="row" id="cc-gradient">
-        <div class="col-md-6 text-dark my-auto text-center" data-aos="fade-up" data-aos-duration="1000">
-          <div class="fw-bold" style="font-size: 64px; color: #F5EFE7;">
+        <div
+          class="col-md-6 text-dark my-auto ps-5"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
+          <div class="fw-bold" style="font-size: 64px; color: #f5efe7">
             Efficiency in Construction
           </div>
-          <div class="" style="font-size: 16px; color: #F5EFE7;">
-            We are the leading construction company in Asia with partnerships with top countries of the world. 
+          <div style="font-size: 16px; color: #f5efe7">
+            We are the leading construction company in Asia with partnerships
+            with top countries of the world.
           </div>
-          <a href="#contact_section"><button class="btn fw-medium ps-5 pe-5 pt-2 pb-2 mt-5" style="background-color: #F5EFE7; border-color: #213555; color: #213555;">Contact Us</button></a>
+          <a href="#contact_section"
+            ><button
+              class="btn fw-medium ps-5 pe-5 pt-2 pb-2 mt-5 shadow-5"
+              style="
+                background-color: #f5efe7;
+                border-color: #213555;
+                color: #213555;
+              "
+            >
+              Contact Us
+            </button></a
+          >
         </div>
 
         <div class="col-md-6" data-aos="fade-up" data-aos-duration="1000">
-          <img src="images/1.png" alt="hero-banner" class="img-fluid pt-5">
-
-        </div> 
-      </div>
-  </div>
-
-  <!-- About section -->
-<div class="container-flex" id="about_section">
-  <div class="row" style="background-color: #F5EFE7;">
-    <div class="col-md-2">
-
-    </div>
-    <div class="col-md-8 pt-5">
-      <p class="text-center fw-bold fs-1"  style="color: #213555;">About</p>
-      <p class="text-center fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas animi provident repudiandae sapiente est unde itaque maxime magni nemo nobis? Rem similique enim expedita! Maiores, iusto explicabo? Dignissimos, delectus molestiae.</p>
-    </div>
-  </div>
-
-  <div class="row p-5" style="background-color: #F5EFE7;">
-    <div class="col-md-1"></div>
-    <div class="col-md-5 text-center my-auto" data-aos="fade-right" data-aos-duration="1000">
-      <img src="images/3.png" alt="" class="img-fluid rounded-4 w-75">
-    </div>
-    <div class="col-md-1"></div>
-    <div class="col-md-4 my-auto pt-3" data-aos="fade-right" data-aos-duration="1000">
-      <p class="text-center fw-bold fs-1" style="color: #213555;">MISSION</p>
-      <p class="text-center fs-5">“It is our constant mission to provide a level of service that will exceed the expectations of our clients, maintain the highest level of quality and allow our employees the opportunity to grow and prosper. We strive to instill confidence with all parties by professionally managing all aspects of each and every project be it large or small.”</p>
-    </div>
-    <div class="col-md-1"></div>
-  </div>
-
-  <div class="row p-5 d-flex flex-row-reverse" style="background-color: #F5EFE7;">
-    <div class="col-md-1"></div>
-    <div class="col-md-5 text-center my-auto"  data-aos="fade-left" data-aos-duration="1000">
-      <img src="images/4.png" alt="" class="img-fluid rounded-4 w-75">
-    </div>
-    <div class="col-md-1"></div>
-    <div class="col-md-4 my-auto pt-3" data-aos="fade-left" data-aos-duration="1000">
-      <p class="text-center fw-bold fs-1" style="color: #213555;">VISION</p>
-      <p class="text-center fs-5">“To provide a steadfast commitment to safety, quality, value and client satisfaction in every project we do.”</p>
-    </div>
-    <div class="col-md-1"></div>
-  </div>
-</div>
-
-<!-- Projects carousel section -->
-<div class="container-flex" id="project_section">
-  <div class="row pt-5" style="background-color: #F5EFE7;">
-    <div class="col-md-2"></div>
-    <div class="col-md-8">
-      <p class="text-center fs-1 fw-bold" style="color: #213555;">Projects</p>
-
-      <div id="carouselExample" class="carousel slide"  data-aos="fade-down" data-aos-duration="1200">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="images/5.png" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="images/6.png" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="images/7.png" class="d-block w-100" alt="...">
-          </div>
+          <img
+            src="images/1-test.png"
+            alt="hero-banner"
+            class="img-fluid pt-5"
+          />
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
       </div>
     </div>
-  </div>
-</div>
 
-<!-- meet the team Section -->
-<div class="container-flex" id="software_section" >
-  <div class="row" style="background-color: #F5EFE7;">
-    <p class="text-center fs-1 fw-bold pt-5" style="color: #213555;">Meet the team</p>
-<div class="col-md-2">
+    <!-- About section -->
+    <div class="container-flex" id="about_section">
+      <div class="row pt-5" style="background-color: #f5efe7">
+        <div class="col-md-1"></div>
+        <div class="col-md-5 pt-5 ms-2 me-2" data-aos="fade-up" data-aos-duration="1000">
+          <p class="fw-bold fs-1" style="color: #213555">Who We Are</p>
+          <p class="fs-5">
+            At ABC Construction Firm, we are more than just builders; we are
+            visionaries, creators, and dedicated craftsmen. With a legacy of
+            excellence spanning over three decades, we have consistently
+            delivered top-tier construction solutions across a wide range of
+            sectors. Our commitment to quality, innovation, and client
+            satisfaction sets us apart in the industry.
+          </p>
+          <a href="#"
+            ><button
+              class="btn mt-3 ps-4 pe-4"
+              style="background-color: #4f709c; color: #f5efe7"
+            >
+              Read More
+            </button></a
+          >
+        </div>
 
-</div>
-<div class="col-md-2">
-  <p class="text-center fs-3 fw-bold" style="color: #4F709C;">Architech</p>
-  <div class="card">
-    <div class="card-body">
-      <img src="images/mtt1.png" alt="" class="img-fluid">
-      <p class="card-title fs-5 fw-bold pt-2" style="color: #4F709C;">Adam Allan</p>
+        <div class="col-md-5 pt-5 text-center" data-aos="fade-up" data-aos-duration="1000">
+          <img src="images/2.png" alt="" class="img-fluid w-100" />
+        </div>
+        <div class="col-md-1"></div>
+        <div class="row custom-divider w-75 mx-auto"></div>
+      </div>
+
+      <div class="row p-5" style="background-color: #f5efe7">
+        <div class="col-md-1"></div>
+        <div
+          class="col-md-5 text-center my-auto"
+          data-aos="fade-right"
+          data-aos-duration="1000"
+        >
+          <img
+            src="images/3.png"
+            alt=""
+            class="img-fluid rounded-4 w-75 shadow-lg"
+          />
+        </div>
+        <div class="col-md-1"></div>
+        <div
+          class="col-md-4 my-auto pt-3"
+          data-aos="fade-right"
+          data-aos-duration="1000"
+        >
+          <p class="text-center fw-bold fs-1" style="color: #213555">MISSION</p>
+          <p class="text-center fs-5">
+            Our mission is simple yet profound: to bring your architectural
+            dreams to life. We believe that every structure we build is not just
+            a project; it's a testament to our unwavering dedication to
+            craftsmanship and precision. From concept to completion, we are with
+            you every step of the way, ensuring that your vision becomes a
+            reality.
+          </p>
+        </div>
+        <div class="col-md-1"></div>
+      </div>
+
+      <div
+        class="row p-5 d-flex flex-row-reverse"
+        style="background-color: #f5efe7"
+      >
+        <div class="col-md-1"></div>
+        <div
+          class="col-md-5 text-center my-auto"
+          data-aos="fade-left"
+          data-aos-duration="1000"
+        >
+          <img
+            src="images/4.png"
+            alt=""
+            class="img-fluid rounded-4 w-75 shadow-lg"
+          />
+        </div>
+        <div class="col-md-1"></div>
+        <div
+          class="col-md-4 my-auto pt-3"
+          data-aos="fade-left"
+          data-aos-duration="1000"
+        >
+          <p class="text-center fw-bold fs-1" style="color: #213555">VISION</p>
+          <p class="text-center fs-5">
+            “To provide a steadfast commitment to safety, quality, value and
+            client satisfaction in every project we do.”
+          </p>
+        </div>
+        <div class="col-md-1"></div>
+
+        <div class="row custom-divider w-75 mx-auto"></div>
+      </div>
     </div>
-  </div>
-</div>
 
-<div class="col-md-2">
-  <p class="text-center fs-3 fw-bold" style="color: #4F709C;">Structural Engineer</p>
-  <div class="card">
-    <div class="card-body">
-      <img src="images/mtt2.png" alt="" class="img-fluid">
-      <p class="card-title fs-5 fw-bold pt-2" style="color: #4F709C;">Julia Jackson</p>
+    <div class="container-flex">
+      <div class="row" style="background-color: #f5efe7">
+        <div class="col-md-2"></div>
+        <div class="col-md-8 ms-2 me-2">
+          <p class=" fs-1 fw-bold" style="color: #213555;">
+            What We Do
+          </p>
+          <p class="fs-5">
+            At ABC Construction Firm, we are dedicated to delivering excellence
+            in construction services across a wide range of projects. With a
+            wealth of experience, a commitment to quality, and a team of skilled
+            professionals, we offer comprehensive construction solutions
+            tailored to your unique needs. Here's what we bring to the table:
+          </p>
+        </div>
+      </div>
+
+      <div class="row" style="background-color: #f5efe7">
+        <div class="col-md-1"></div>
+
+        <div class="col-md-2 pt-5">
+          <img src="images/10.png" alt="" class="img-fluid w-100" />
+          <p class="text-center mt-3 fs-2 fw-bold" style="color: #213555">
+            Civil Works
+          </p>
+          <ul
+            class="list-group list-group-flush fs-5"
+            style="background-color: #f5efe7"
+          >
+            <li class="list-group-item" style="background-color: #f5efe7">Site Development</li>
+            <li class="list-group-item" style="background-color: #f5efe7">Roads, Railways, and Bridges</li>
+            <li class="list-group-item" style="background-color: #f5efe7">Dams, Irrigation, Reservoirs, and Flood Control</li>
+            <li class="list-group-item" style="background-color: #f5efe7">Ports and Harbors</li>
+          </ul>
+        </div>
+
+        <div class="col-md-2 pt-5">
+          <img src="images/11.png" alt="" class="img-fluid w-100" />
+          <p class="text-center mt-3 fs-2 fw-bold" style="color: #213555">
+            Building Works
+          </p>
+          <ul
+            class="list-group list-group-flush fs-5"
+            style="background-color: #f5efe7"
+          >
+            <li class="list-group-item" style="background-color: #f5efe7">Commercial Buildings & Industrial Plants</li>
+            <li class="list-group-item" style="background-color: #f5efe7">Communication, Monitoring & Control Facilities</li>
+          </ul>
+        </div>
+
+        <div class="col-md-2 pt-5">
+          <img src="images/12.png" alt="" class="img-fluid w-100" />
+          <p class="text-center mt-3 fs-2 fw-bold" style="color: #213555">
+            Plant Works
+          </p>
+          <ul
+            class="list-group list-group-flush fs-5"
+            style="background-color: #f5efe7"
+          >
+            <li class="list-group-item" style="background-color: #f5efe7">Water, and Sewerage & Sewage Treatment</li>
+            <li class="list-group-item" style="background-color: #f5efe7">Refineries (Oil and Gas), Chemical</li>
+            <li class="list-group-item" style="background-color: #f5efe7">Hydroelectric Power, Wind Power, Solar Power, Thermal Power</li>
+            <li class="list-group-item" style="background-color: #f5efe7">Industrial and Diesel-Fired Power</li>
+            <li class="list-group-item" style="background-color: #f5efe7">Battery Storage Facilities</li>
+          </ul>
+        </div>
+
+        <div class="col-md-2 pt-5">
+          <img src="images/13.png" alt="" class="img-fluid w-100" />
+          <p class="text-center mt-3 fs-2 fw-bold" style="color: #213555">
+            Underground Works
+          </p>
+          <ul
+            class="list-group list-group-flush fs-5"
+            style="background-color: #f5efe7"
+          >
+            <li class="list-group-item" style="background-color: #f5efe7">Mining</li>
+            <li class="list-group-item" style="background-color: #f5efe7">Tunnelling</li>
+            <li class="list-group-item" style="background-color: #f5efe7">Horizontal Directional Drilling (HDD)</li>
+          </ul>
+        </div>
+
+        <div class="col-md-2 pt-5">
+          <img src="images/14.png" alt="" class="img-fluid w-100" />
+          <p class="text-center mt-3 fs-2 fw-bold" style="color: #213555">
+            Foundation Works
+          </p>
+          <ul
+            class="list-group list-group-flush fs-5"
+            style="background-color: #f5efe7"
+          >
+            <li class="list-group-item" style="background-color: #f5efe7">Bored Piling</li>
+            <li class="list-group-item" style="background-color: #f5efe7">Steel/ Concrete Pile Driving</li>
+            <li class="list-group-item" style="background-color: #f5efe7">Secant & Tangent Pile</li>
+            <li class="list-group-item" style="background-color: #f5efe7">Static Piling</li>
+            <li class="list-group-item" style="background-color: #f5efe7">Micropile</li>
+            <li class="list-group-item" style="background-color: #f5efe7">Soil-Cement Column</li>
+          </ul>
+        </div>
+
+        <div class="row custom-divider w-75 mx-auto"></div>
+      </div>
     </div>
-  </div>
-</div>
 
-<div class="col-md-2">
-  <p class="text-center fs-3 fw-bold" style="color: #4F709C;">Designer</p>
-  <div class="card">
-    <div class="card-body">
-      <img src="images/mtt3.png" alt="" class="img-fluid">
-      <p class="card-title fs-5 fw-bold pt-2" style="color: #4F709C;">Evan Bond</p>
-    </div>
-  </div>
-</div>
+    <!-- Projects carousel section -->
+    <div class="container-flex" id="project_section">
+      <div class="row" style="background-color: #f5efe7">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+          <p class="text-center fs-1 fw-bold" style="color: #213555">
+            Projects
+          </p>
 
-<div class="col-md-2">
-  <p class="text-center fs-3 fw-bold" style="color: #4F709C;">Project Manager</p>
-  <div class="card">
-    <div class="card-body">
-      <img src="images/mtt4.png" alt="" class="img-fluid">
-      <p class="card-title fs-5 fw-bold pt-2" style="color: #4F709C;">Leonard Glover</p>
-    </div>
-  </div>
-</div>
-  </div>
-</div>
-
-<!-- Contact Us Section -->
-<div class="container-flex" id="contact_section">
-  <div class="row" style="background-color: #F5EFE7;">
-    <div class="col-md-3"></div>
-    <div class="col-md-6">
-      <p class="text-center fs-1 fw-bold pt-5" style="color: #213555;">Contact Us</p>
-      <form>
-        <div class="card mb-5" data-aos="fade-up" data-aos-duration="1200">
-          <div class="card-body">
-            <label for="name">Full Name:</label>
-            <input type="text" class="form-control" style="border-color: #4F709C;" id="name" required>
-            <br>
-            <label for="email">Email Address:</label>
-            <input type="text" class="form-control" style="border-color: #4F709C;" id="email" required>
-            <br>
-            <label for="phone">Phone:</label>
-            <input type="text" class="form-control" style="border-color: #4F709C;" id="phone" required>
-            <br>
-            <button  type="submit" class="btn form-control" style="background-color: #4F709C; color: #F5EFE7;">Submit</button>
+          <div
+            id="carouselExample"
+            class="carousel slide shadow-lg"
+            data-aos="fade-down"
+            data-aos-duration="1200"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/5.png" class="d-block w-100" alt="..." />
+              </div>
+              <div class="carousel-item">
+                <img src="images/6.png" class="d-block w-100" alt="..." />
+              </div>
+              <div class="carousel-item">
+                <img src="images/7.png" class="d-block w-100" alt="..." />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExample"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExample"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
           </div>
         </div>
-      </form>
+      </div>
     </div>
-  </div>
-</div>
+
+    <!-- meet the team Section -->
+    <div class="container-flex" id="software_section">
+      <div class="row" style="background-color: #f5efe7">
+        <p class="text-center fs-1 fw-bold pt-5" style="color: #213555">
+          Meet the team
+        </p>
+        <div class="col-md-2"></div>
+        <div class="col-md-2 p-3">
+          <p class="text-center fs-3 fw-bold" style="color: #4f709c">
+            Architect
+          </p>
+          <div class="card shadow">
+            <div class="card-body">
+              <img src="images/mtt1.png" alt="" class="img-fluid" />
+              <p class="card-title fs-5 fw-bold pt-2" style="color: #4f709c">
+                Adam Allan
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-2 p-3">
+          <p class="text-center fs-3 fw-bold" style="color: #4f709c">
+            Structural Engineer
+          </p>
+          <div class="card shadow">
+            <div class="card-body">
+              <img src="images/mtt2.png" alt="" class="img-fluid" />
+              <p class="card-title fs-5 fw-bold pt-2" style="color: #4f709c">
+                Julia Jackson
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-2 p-3">
+          <p class="text-center fs-3 fw-bold" style="color: #4f709c">
+            Designer
+          </p>
+          <div class="card shadow">
+            <div class="card-body">
+              <img src="images/mtt3.png" alt="" class="img-fluid" />
+              <p class="card-title fs-5 fw-bold pt-2" style="color: #4f709c">
+                Evan Bond
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-2 p-3">
+          <p class="text-center fs-3 fw-bold" style="color: #4f709c">
+            Project Manager
+          </p>
+          <div class="card shadow">
+            <div class="card-body">
+              <img src="images/mtt4.png" alt="" class="img-fluid" />
+              <p class="card-title fs-5 fw-bold pt-2" style="color: #4f709c">
+                Leonard Glover
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row custom-divider w-75 mx-auto" ></div>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row pt-5" style="background-color: #f5efe7;">
+        <div class="col-md-2">
+        </div>
+        <div class="col-md-8" >
+          <p class="fs-4 fw-bold text-start" style="color: #213555;">Join the Team!</p>
+          <p class="fs-5">Take your professional life to the next level by working with us. Engage in more opportunities with ABC Construction!</p>
+          <label for="resume" class="fw-bold" style="color: #213555;">Upload Resume</label>
+          <br>
+          <input type="file" class="pb-5">
+          <img src="images/jtt.png" alt="" class="img-fluid w-100 shadow-lg">
+          </div>
+          <div class="row custom-divider w-75 mx-auto" ></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact Us Section -->
+    <div class="container-flex" id="contact_section">
+      <div class="row" style="background-color: #f5efe7">
+        <div class="col-md-3"></div>
+        <div class="col-md-6">
+          <p class="text-center fs-1 fw-bold pt-5" style="color: #213555">
+            Contact Us
+          </p>
+          <form>
+            <div
+              class="card mb-5 shadow"
+              data-aos="fade-up"
+              data-aos-duration="1200"
+            >
+              <div class="card-body">
+                <label for="name">Full Name:</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  style="border-color: #4f709c"
+                  id="name"
+                  required
+                />
+                <br />
+                <label for="email">Email Address:</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  style="border-color: #4f709c"
+                  id="email"
+                  required
+                />
+                <br />
+                <label for="phone">Phone:</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  style="border-color: #4f709c"
+                  id="phone"
+                  required
+                />
+                <br />
+                <button
+                  type="submit"
+                  class="btn form-control"
+                  style="background-color: #4f709c; color: #f5efe7"
+                >
+                  Submit
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="row custom-divider w-75 mx-auto" ></div>
+      </div>
+    </div>
+
+
     <!-- Footer Section -->
-<div class="container-flex">
-  <div class="row" style="background: #4F709C; color: #F5EFE7;">
-    <div class="col-md-2"></div>
-    <div class="col-md-8">
-      <p class="text-center my-auto">Thanks for visiting our site!</p>
+    <div class="container-flex">
+      <div class="row" style="background: #4f709c; color: #f5efe7">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+          <p class="text-center my-auto">Thanks for visiting our site!</p>
+        </div>
+      </div>
     </div>
-  </div>
-</div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
-        AOS.init();
-      </script>
-</body>
+      AOS.init();
+    </script>
+  </body>
 </html>
